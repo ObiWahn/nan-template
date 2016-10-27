@@ -1,0 +1,17 @@
+{
+  "name": "node_example_bindings",
+  "version": "0.0.0",
+  "description": "Node.js bindings that demonstrate how to use NAN",
+  "main": "example.js",
+  "private": true,
+  "scripts": {
+    "test": "node example.js",
+    "install": "cmake-js compile -D"
+  },
+  "gypfile": true,
+  "dependencies": {
+    "bindings": "^1.2.1",
+    "cmake-js": "^3.3.1",
+    "nan": "^2.4.0"
+  }
+}
